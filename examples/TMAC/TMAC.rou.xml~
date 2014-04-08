@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType accel="3.0" decel="6.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+  <vType accel="2.0" decel="6.0" id="CarB" length="7.5" minGap="2.5" maxSpeed="50.0" sigma="0.5" />
+  <vType accel="1.0" decel="5.0" id="CarC" length="5.0" minGap="2.5" maxSpeed="40.0" sigma="0.5" />
+  <vType accel="1.0" decel="5.0" id="CarD" length="7.5" minGap="2.5" maxSpeed="30.0" sigma="0.5" />
+
+  <route id="route01" edges="LB0 LB1 LB2"/>
+
+  <route id="route13" edges="LB0 DA1"/>
+  <route id="route14" edges="LB0 DB1 DC1"/>	
+
+
+  <route id="route02" edges="RB2 RB1 RB0"/>
+<!--
+  <route id="route05" edges="RB2 DA2"/>
+  <route id="route06" edges="RB2 UB2 UC2"/>
+-->
+  <route id="route03" edges="LC0 LC1 LC2"/>
+<!--
+  <route id="route08" edges="LC0 DB1 DA1"/>
+  <route id="route09" edges="LC0 DC1"/>
+-->	
+  <route id="route04" edges="RC2 RC1 RC0"/>
+<!--
+  <route id="route11" edges="RC2 DB2 DA2"/>
+  <route id="route12" edges="RC2 UC2"/>
+-->
+  <route id="route05" edges="DA1 DB1 DC1"/>
+
+  <route id="route06" edges="UC1 UB1 UA1"/>
+
+  <route id="route07" edges="DA2 DB2 DC2"/>
+
+  <route id="route08" edges="UC2 UB2 UA2"/>
+
+  <vehicle depart="0" id="veh0" route="route01" type="CarA" color="1,0,0" /> 
+  <vehicle depart="3" id="veh1" route="route02" type="CarA" />
+  <vehicle depart="6" id="veh2" route="route03" type="CarA" />
+  <vehicle depart="9" id="veh3" route="route04" type="CarA" />
+  <vehicle depart="15" id="veh4" route="route05" type="CarA" />
+  <vehicle depart="15" id="veh5" route="route06" type="CarA" />
+  <vehicle depart="15" id="veh6" route="route07" type="CarA" />
+  <vehicle depart="15" id="veh7" route="route08" type="CarA" />
+
+  <vehicle depart="54050" id="veh8" route="route01" type="CarA" color="1,0,0" /> 
+  <vehicle depart="54050" id="veh9" route="route02" type="CarA" />
+  <vehicle depart="54050" id="veh10" route="route03" type="CarA" />
+  <vehicle depart="54050" id="veh11" route="route04" type="CarA" />
+  <vehicle depart="54050" id="veh12" route="route05" type="CarA" />
+  <vehicle depart="54050" id="veh13" route="route06" type="CarA" />
+  <vehicle depart="54050" id="veh14" route="route07" type="CarA" />
+  <vehicle depart="54050" id="veh15" route="route08" type="CarA" />
+
+  <vehicle depart="54100" id="veh16" route="route01" type="CarA" color="1,0,0" /> 
+  <vehicle depart="54100" id="veh17" route="route02" type="CarA" />
+  <vehicle depart="54100" id="veh18" route="route03" type="CarA" />
+  <vehicle depart="54100" id="veh19" route="route04" type="CarA" />
+  <vehicle depart="54100" id="veh20" route="route05" type="CarA" />
+  <vehicle depart="54100" id="veh21" route="route06" type="CarA" />
+  <vehicle depart="54100" id="veh22" route="route07" type="CarA" />
+  <vehicle depart="54100" id="veh23" route="route08" type="CarA" />
+
+  <vehicle depart="54130" id="veh24" route="route01" type="CarA" color="1,0,0" /> 
+  <vehicle depart="54130" id="veh25" route="route02" type="CarA" />
+  <vehicle depart="54130" id="veh26" route="route03" type="CarA" />
+  <vehicle depart="54130" id="veh27" route="route04" type="CarA" />
+  <vehicle depart="54130" id="veh28" route="route05" type="CarA" />
+  <vehicle depart="54130" id="veh29" route="route06" type="CarA" />
+  <vehicle depart="54130" id="veh30" route="route07" type="CarA" />
+  <vehicle depart="54130" id="veh31" route="route08" type="CarA" />
+
+  <vehicle depart="54140" id="veh32" route="route01" type="CarA" color="1,0,0" /> 
+  <vehicle depart="54140" id="veh33" route="route02" type="CarA" />
+  <vehicle depart="54140" id="veh34" route="route03" type="CarA" />
+  <vehicle depart="54140" id="veh35" route="route04" type="CarA" />
+  <vehicle depart="54140" id="veh36" route="route05" type="CarA" />
+  <vehicle depart="54140" id="veh37" route="route06" type="CarA" />
+  <vehicle depart="54140" id="veh38" route="route07" type="CarA" />
+  <vehicle depart="54140" id="veh39" route="route08" type="CarA" />
+</routes>

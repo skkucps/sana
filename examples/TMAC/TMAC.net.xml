@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri Dec 27 22:02:57 2013 by SUMO netconvert Version 0.15.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="tmac.nod.xml"/>
+        <edge-files value="tmac.edg.xml"/>
+        <connection-files value="tmac.con.xml"/>
+        <type-files value="tmac.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="tmac.net.xml"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="0.13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,1000.00,1000.00" origBoundary="0.00,0.00,1000.00,1000.00" projParameter="!"/>
+
+    <edge id="LC0" from="C0" to="C1" priority="3" type="a">
+        <lane id="LC0_0" index="0" speed="13.89" length="500.00" shape="0.00,328.05 500.00,328.05"/>
+        <lane id="LC0_1" index="1" speed="13.89" length="500.00" shape="0.00,331.35 500.00,331.35"/>
+    </edge>  
+    <edge id="RC0" from="C1" to="C0" priority="3" type="b">
+        <lane id="RC0_0" index="0" speed="13.89" length="500.00" shape="500.00,337.95 0.00,337.95"/>
+        <lane id="RC0_1" index="1" speed="13.89" length="500.00" shape="500.00,334.65 0.00,334.65"/>
+    </edge> 
+    <junction id="C0" type="dead_end" x="0.00" y="333.00" incLanes="RC0_0 RC0_1" intLanes="" shape="-0.00,332.95 -0.00,326.45 0.00,339.55 0.00,333.05"/>
+    <junction id="C1" type="dead_end" x="500.00" y="333.00" incLanes="RC0_0 RC0_1" intLanes="" shape="500.00,332.95 500.00,326.45 500.00,339.55 500.00,333.05"/>    
+</net>
